@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tabuada</h1>
+    </header>
+    <section>
+      <div>
+        <p class="paragrafo">
+          Número:
+          <input
+            type="number"
+            name="number"
+            id="txtn"
+            placeholder="Digite um número"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="gerar"
+            value="Gerar Tabuada"
+            onclick="tabuada()"
+          />
+        </p>
+      </div>
+      <div>
+        <select name="tabuada" id="res" size="10"></select>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; RavenShiori</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
